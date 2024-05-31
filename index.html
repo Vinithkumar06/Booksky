@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📷 Zero 6 </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body background="images/bg wal.jpg">
+    
+    <div class="navbar">        
+        <h1>💙💜💙Home page of Zero 6 😎 💜💙💜</h1>        
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>The Photograph 📷 of Zero6  😎</h2>            
+            <h5>Vinii</h5>            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat amet iusto doloribus at saepe assumenda ea nobis exercitationem vel expedita impedit vitae temporibus voluptatem veritatis quia, itaque deserunt explicabo delectus.</p> 
+            <button onclick="deletebook(event)">Delete</button>           
+        </div>    
+
+    </div>
+
+    <div class="popup-overlay" ></div>
+
+    <div class="popup-box">
+        <h2>ADD NEW</h2>
+        <form id="bookForm">
+            <input type="text" placeholder="Tittle" id="tittle-input">
+            <input type="text" placeholder="Author" id="author-input">
+            <textarea placeholder="Short Description" id="descripiton-input" ></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
